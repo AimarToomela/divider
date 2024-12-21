@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from viewer.views import divide
+from Divider_app.views import divide
 
 urlpatterns = [
     path('admin/', admin.site.urls),
